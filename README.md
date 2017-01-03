@@ -1,1 +1,1 @@
-:bowtie: My Blog :dash:
+:bowtie: My Blog 
