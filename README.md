@@ -1,1 +1,1 @@
-:bowtie: My Blog 
+:bowtie: Blog 
