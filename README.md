@@ -1,1 +1,1 @@
-:bowtie: Blog 
+:point_right: Blog 
