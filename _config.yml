@@ -7,7 +7,7 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Keshan.com"
+title                    : "Keshan.github.io"
 title_separator          : "-"
 name                     : "Keshan"
 description              : "My Site"
@@ -68,7 +68,7 @@ author:
   bio              : "An Astute Learner"
   location         : "Sri Lanka"
   email            : "keshankesh@gmail.com"
-  uri              : "http://keshan.com"
+  uri              : "https://keshann.github.io"
   bitbucket        :
   codepen          :
   dribbble         :
