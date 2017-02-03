@@ -1,7 +1,7 @@
 ---
 title: "Projects"
 permalink: /projects/
-excerpt: Stuff I Built
+excerpt: Stuff I am Building
 header:
-  overlay_image: maxresdefault.jpg
+  overlay_image: build_process.jpg
 ---
