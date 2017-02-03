@@ -17,12 +17,12 @@
             {% if link.subcategories != null %}
               <li class="dropdown">
                   <a href="" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown">{{ link.title }}<i class="fa fa-angle-down"></i></a>
+                  <ul class="dropdown-menu">
+                  {% for subcategory in link.subcategories %}
+                    <li><a href="{{ domain }}{{ subcategory.suburl }}">{{ subcategory.subtitle }}</a></li>
+                  {% endfor %}
+                  </ul>
               </li>
-              <ul class="dropdown-menu">
-              {% for subcategory in link.subcategories %}
-                <li><a href="{{ domain }}{{ subcategory.suburl }}">{{ subcategory.subtitle }}</a></li>
-              {% endfor %}
-              </ul>
             {% else %}
               <li class="masthead__menu-item"><a href="{{ domain }}{{ link.url }}">{{ link.title }}</a></li>
             {% endif %}
