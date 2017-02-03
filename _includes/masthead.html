@@ -10,20 +10,21 @@
           {% for link in site.data.navigation.main %}
             {% if link.url contains 'http' || link.url == null %}
               {% assign domain = '' %}
-              <li class="dropdown">
-                  <a href="{{ domain }}{{ link.url }}" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown">{{ link.title }}<i class="fa fa-angle-down"></i></a>
-              </li>
             {% else %}
               {% assign domain = base_path %}
-              <li class="masthead__menu-item"><a href="{{ domain }}{{ link.url }}">{{ link.title }}</a></li>
             {% endif %}
 
             {% if link.subcategories != null %}
+              <li class="dropdown">
+                  <a href="{{ domain }}{{ link.url }}" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown">{{ link.title }}<i class="fa fa-angle-down"></i></a>
+              </li>
               <ul class="dropdown-menu">
               {% for subcategory in link.subcategories %}
                 <li><a href="{{ domain }}{{ subcategory.suburl }}">{{ subcategory.subtitle }}</a></li>
               {% endfor %}
               </ul>
+            {% else %}
+              <li class="masthead__menu-item"><a href="{{ domain }}{{ link.url }}">{{ link.title }}</a></li>
             {% endif %}
 
           {% endfor %}
