@@ -3,14 +3,14 @@ main:
   - title: "Home"
     url: /
 
-  - title: "Posts"
-    subcategories:
-      - subtitle: "Posts by Year"
-        suburl: "/year-archive/"
-      - subtitle: "Posts by Category"
-        suburl: "/categories/"
-      - subtitle: "Posts by Tags"
-        suburl: "/tags/"
+  - title: "Posts by Year"
+    url: "/year-archive/"
+
+  - title: "Posts by Category"
+    url: "/categories/"
+
+  - title: "Posts by Tags"
+    url: "/tags/"
 
   - title: "Tools"
     url: /tools/
