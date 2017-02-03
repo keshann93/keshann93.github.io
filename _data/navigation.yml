@@ -4,7 +4,13 @@ main:
     url: /
 
   - title: "Posts"
-    url: /year-archive/
+    subcategories:
+      - subtitle: "Posts by Year"
+        suburl: "/year-archive/"
+      - subtitle: "Posts by Category"
+        suburl: "/categories/"
+      - subtitle: "Posts by Tags"
+        suburl: "/tags/"
 
   - title: "Tools"
     url: /tools/
