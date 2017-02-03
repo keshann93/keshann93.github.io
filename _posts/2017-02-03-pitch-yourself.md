@@ -3,7 +3,9 @@ title:  "Pitch Yourself - My First Post"
 categories:
   - Web
 tags:
-  - OpenSource
+  - General
+  - Pitch
+  - English
 ---
 
 ### **Introduction**
