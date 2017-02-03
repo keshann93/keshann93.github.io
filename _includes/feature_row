@@ -1,3 +1,5 @@
+{% include base_path %}
+
 {% if include.id %}
   {% assign feature_row = page.[include.id] %}
 {% else %}
@@ -11,7 +13,7 @@
     {% if f.url contains "://" %}
       {% capture f_url %}{{ f.url }}{% endcapture %}
     {% else %}
-      {% capture f_url %}{{ f.url | absolute_url }}{% endcapture %}
+      {% capture f_url %}{{ f.url | prepend: base_path }}{% endcapture %}
     {% endif %}
 
     <div class="feature__item{% if include.type %}--{{ include.type }}{% endif %}">
@@ -22,7 +24,7 @@
               {% if f.image_path contains "://" %}
                 "{{ f.image_path }}"
               {% else %}
-                "{{ f.image_path | absolute_url }}"
+                "{{ f.image_path | prepend: "/images/" | prepend: base_path }}"
               {% endif %}
             alt="{% if f.alt %}{{ f.alt }}{% endif %}">
           </div>
@@ -40,7 +42,7 @@
           {% endif %}
 
           {% if f.url %}
-            <p><a href="{{ f_url }}" class="btn {{ f.btn_class }}">{{ f.btn_label | default: site.data.ui-text[site.locale].more_label | default: "Learn More" }}</a></p>
+            <p><a href="{{ f_url }}" class="btn {{ f.btn_class }}">{{ f.btn_label | default: site.data.ui-text[site.locale].more_label }}</a></p>
           {% endif %}
         </div>
       </div>

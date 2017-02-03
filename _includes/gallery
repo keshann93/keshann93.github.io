@@ -1,12 +1,16 @@
+{% include base_path %}
+
 {% if include.id %}
   {% assign gallery = page.[include.id] %}
 {% else %}
   {% assign gallery = page.gallery %}
 {% endif %}
 
-{% if gallery.size == 2 %}
+{% capture gallery_size %}{{ gallery | size }}{% endcapture %}
+
+{% if gallery_size == '2' %}
   {% assign gallery_layout = 'half' %}
-{% elsif gallery.size >= 3 %}
+{% elsif gallery_size >= '3' %}
   {% assign gallery_layout = 'third' %}
 {% else %}
   {% assign gallery_layout = '' %}
@@ -19,7 +23,7 @@
         {% if img.url contains "://" %}
           "{{ img.url }}"
         {% else %}
-          "{{ img.url | absolute_url }}"
+          "{{ img.url | prepend: "/images/" | prepend: base_path }}"
         {% endif %}
         {% if img.title %}title="{{ img.title }}"{% endif %}
       >
@@ -27,7 +31,7 @@
           {% if img.image_path contains "://" %}
             "{{ img.image_path }}"
           {% else %}
-            "{{ img.image_path | absolute_url }}"
+            "{{ img.image_path | prepend: "/images/" | prepend: base_path }}"
           {% endif %}
           alt="{% if img.alt %}{{ img.alt }}{% endif %}">
       </a>
@@ -36,7 +40,7 @@
         {% if img.image_path contains "://" %}
           "{{ img.image_path }}"
         {% else %}
-          "{{ img.image_path | absolute_url }}"
+          "{{ img.image_path | prepend: "/images/" | prepend: base_path }}"
         {% endif %}
         alt="{% if img.alt %}{{ img.alt }}{% endif %}">
     {% endif %}

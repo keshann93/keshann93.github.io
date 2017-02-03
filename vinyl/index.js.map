@@ -1,0 +1,1 @@
+{"version":3,"sources":["index.ts"],"names":[],"mappings":";;;;;;;;;;;;;AAAA,yBAA0B,mBAAmB,CAAC,CAAA;AAC9C,uBAAuB,4BAA4B,CAAC,CAAA;AAEpD,oBAAS,CAAC,eAAM,CAAC,CAAC","file":"index.js","sourcesContent":["import { bootstrap } from 'angular2/angular2';\r\nimport { Player } from './components/player/Player';\r\n\r\nbootstrap(Player);"],"sourceRoot":"/source/"}

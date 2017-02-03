@@ -1,0 +1,1 @@
+{"version":3,"sources":["components/visualizer/trackInfo.ts"],"names":["TrackInfo","TrackInfo.constructor"],"mappings":";;;;;;;;;;;;;AAAA;IAAAA;IAGAC,CAACA;IAADD,gBAACA;AAADA,CAHA,AAGCA,IAAA;AAHY,iBAAS,YAGrB,CAAA","file":"components/visualizer/trackInfo.js","sourcesContent":["export class TrackInfo{\r\n\tTitle: String;\r\n\tArtist: String;\r\n}"],"sourceRoot":"/source/"}

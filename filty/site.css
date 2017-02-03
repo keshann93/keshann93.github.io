@@ -1,0 +1,56 @@
+body{
+  background-color: #ebebeb;
+}
+
+#search-app{
+  margin-right: auto;
+  margin-left: auto;
+  width: 600px;
+}
+
+.container {
+  margin-top: 75px;
+  width: 750px;
+  margin-right: auto;
+  margin-left: auto;
+  font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+.container h1 {
+  text-align: center;
+  font-size: 60px;
+  margin: 0px;
+}
+
+.container h4 {
+  text-align: center;
+  font-size: 19px;
+  font-style: normal;
+  font-weight: normal
+}
+
+.footer {
+  margin-top: 250px;
+}
+
+.footer h5 {
+  text-align: center;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: normal
+}
+
+.logo {
+  height: 150px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.info {
+  margin-top: 10px;
+  text-align: center;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: normal
+}
