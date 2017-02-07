@@ -1,6 +1,6 @@
 ---
 published: false
 ---
-## A New Post
+## Javascript Lesson 01 Statements & Expressions
 
 Enter text in [Markdown](http://daringfireball.net/projects/markdown/). Use the toolbar above, or click the **?** button for formatting help.
