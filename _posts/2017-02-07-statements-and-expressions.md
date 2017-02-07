@@ -20,9 +20,9 @@ In a programming language, a set of words, numbers and operators togather that p
 a = b / 3;
 ```
 
-According to above snippet > a and > b are called _variables_, which are like two simple store containers where you can store any of your required value in it. To make it clear > 3 is just a value itself which can be defined as _literal value_, because it stands alone without being stored in a variable.
+According to above snippet _a_ and _b_ are called _variables_, which are like two simple store containers where you can store any of your required value in it. To make it clear _3_ is just a value itself which can be defined as _literal value_, because it stands alone without being stored in a variable.
 
-The > = and > / characters are operators where they perform actions with values and variables such as assignment and mathematical division. Most statements in Javascript concludes with a semicolong > (;) at the end. 
+The _=_ and _/_ characters are operators where they perform actions with values and variables such as assignment and mathematical division. Most statements in Javascript concludes with a semicolong > (;) at the end. 
 
 
 
