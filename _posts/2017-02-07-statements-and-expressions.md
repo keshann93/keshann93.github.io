@@ -18,7 +18,9 @@ In simple english **A program is set of instructions** created to guide computer
 
 In a programming language, a set of words, numbers and operators togather that perform speciic task is defined as a **statement**. For e.g. in Javascript a statement would possibly look like below 
 
-> a = b / 3;
+```javascript
+a = b / 3;
+```
 
 
 
