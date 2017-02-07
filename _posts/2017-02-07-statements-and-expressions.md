@@ -16,13 +16,15 @@ In simple english **A program is set of instructions** created to guide computer
 
 ### Statements
 
-In a programming language, a set of words, numbers and operators togather that perform speciic task is defined as a **statement**. For e.g. in Javascript a statement would possibly look like below 
+In a programming language, a set of words, numbers and operators togather that perform speciic task is defined as a _statement_. For e.g. in Javascript a statement would possibly look like below 
 
 ```javascript
 a = b / 3;
 ```
 
+According to above snippet > a and > b are called _variables_, which are like two simple store containers where you can store any of your required value in it. To make it clear > 3 is just a value itself which can be defined as _literal value_, because it stands alone without being stored in a variable.
 
+The > = and > / characters are operators where they perform actions with values and variables such as assignment and mathematical division. Most statements in Javascript concludes with a semicolong > (;) at the end. 
 
 
 
