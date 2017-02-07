@@ -22,8 +22,13 @@ a = b / 3;
 
 According to above snippet _a_ and _b_ are called _variables_, which are like two simple store containers where you can store any of your required value in it. To make it clear _3_ is just a value itself which can be defined as _literal value_, because it stands alone without being stored in a variable.
 
-The _=_ and _/_ characters are operators where they perform actions with values and variables such as assignment and mathematical division. Most statements in Javascript concludes with a semicolong > (;) at the end. 
+The _=_ and _/_ characters are operators where they perform actions with values and variables such as assignment and mathematical division. Most statements in Javascript concludes with a semicolong _(;)_ at the end. 
 
+The statement ```javascript a = b / 3;``` tells the computer, roughly, to get the current value stored in the variable _b_, divide that value by _3_, then store the result back into another variable _a_.
+
+To Conclude Statments, collections of many such statements forms a Program, which performs to statisfy the programs need.
+
+### **Expressions**
 
 
 ### **Conclusion**
