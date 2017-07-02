@@ -1,7 +1,7 @@
 ---
 published: true
 ---
-## Introduction to commonly used ES6 features
+### Introduction to commonly used ES6 features
 
 JavaScript has progressed a ton in the recent years. If you’re learning JavaScript in 2017 and you haven’t touched ES6, you’re missing out on an easier way to read and write JavaScript.
 
