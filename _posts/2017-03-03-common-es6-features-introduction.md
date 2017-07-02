@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 ---
 ## Introduction to commonly used ES6 features
 
