@@ -1,4 +1,12 @@
 ---
+title:  "Common ES6 Features - Introduction"
+categories:
+  - Web
+tags:
+  - Javascript
+  - Frontend
+  - ES6
+
 published: true
 ---
 ### Introduction to commonly used ES6 features
