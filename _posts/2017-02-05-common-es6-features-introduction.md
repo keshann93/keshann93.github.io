@@ -1,4 +1,5 @@
 ---
+title:  "Common ES6 Features - Introduction"
 categories:
   - Web
 tags:
