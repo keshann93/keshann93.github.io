@@ -3,14 +3,8 @@ main:
   - title: "Home"
     url: /
 
-  - title: "Posts by Year"
-    url: "/year-archive/"
-
   - title: "Tools"
     url: /tools/
 
   - title: "Projects"
     url: /projects/
-
-  - title: "About"
-    url: /about/
