@@ -8,8 +8,6 @@ tags:
   - Rest
 ---
 
-# Why HTTP Status Code matters?
-
 Here I am finally!! Jan 1st 2019 with a hope of making a change in me trying to
 articulate my very first blog post. I promise this is gonna be a strictly short
 read.
