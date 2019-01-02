@@ -1,17 +1,79 @@
----
-title:  "Reachout - My CC3 Speech"
-categories:
-  - Web
-tags:
-  - General
-  - Pitch
-  - English
-published: true
----
-### Intro
-It was a gloomy sunday day, the wind breeze was heavy. A good climate for a cycle racing. Back then i was 10 years old & all my passion was to be a cycle racer one day. I live in a housing scheme where there is lot of kids. We used to have cycle racings frequently. I had a nick name as knight and i should admit that i had lot of girl fans. The race was about to start and i was on mark eagerly waiting to pedal. I had a fairly good condition bicycle with a rusty cycle chain. The race started i was so focused on the road pedaling fast as i can & leading the race upfront. Suddenly the steering wheel jerked & i lost the rhythmic flow of my pedaling . That evening in the roads near to my housing scheme, a slipped cycle chain changed me. It was not only slipped but it was tangled too.
+# Why HTTP Status Code matters?
 
-I pulled out the cycle from the race track, and in the bright lights, parked on a slope leading to a busy street. Mr. Toastmaster, Fellow Toastmasters and guests, have you ever done something….stupid? I broke the first rule of changing a slipped cycle chain. You should Choose a level spot. So I  got down from the bicycke to inspect the condition. The Rusty piece of metal chain slipped and tangled hanging there. I thought, I can handle it. I first quickly tried to untangled the chain BAM! it worked. Then tried to put the chains back while slowly rotating the pedal. (sound effects). An inner voice said, You are an idiot! Then another voice…Reach out! Reach out?! But i was like I can handle it. I slowly used my right hand on the moving chain to lift the chain up to make it easy to fall in right places of the chain ring. BAM! it worked succeeded in placing the slipped cycle chain aligning to the chain rings.  The moment of joy cycle stand collapsed. The cycle collapsed. since its a slope it started moving and i can remember my right hand is on the chain. BAM My heart collapsed! (sound effects) When the fingers used to lift the chain meets the chain ring it cuts off my fingers into pieces. I was like, now i should reach out to someone. I screamed for help I somehow pulled out my chopped fingers with bleeding blood everywhere. That evening I stopped to put back a slipped cycle chain. Instead, that chain changed me.
- 
-### Conclusion
-I used to believe that to reach out was weakness. I discovered my weakness was refusing to reach out. When you reach out, you attract ideas that lift you up. When you reach out, you attract solutions that lift you up. When you reach out, you attract friendships that lift you up. Maybe you want a better voice. Reach out to a singer. Maybe you want better writing. Reach out to a writer. Maybe you want better slipped chain changing skills? Reach out to me! I’ll help you! Is there something collapsed in your life? Your knowledge may be limited. Your skills may be rusty. But no doubt, you will be changed when you reach out.
+Here I am finally!! Jan 1st 2019 with a hope of making a change in me trying to
+articulate my very first blog post. I promise this is gonna be a strictly short
+read.
+
+#### Introduction
+
+I have been developing REST API’s for past few years and this question of Why
+HTTP status codes are important to be considered always strikes me. Choosing the
+right status code for different context seems a hectic task, where I find some
+status codes are defined unnecessarily. So the real question is why we need
+status codes and how we can make sure we have chosen the right code during the
+design of any REST API.
+
+#### The real hassle
+
+The two of the most common status codes that any developer would come across
+are:
+
+* When the page renders or the data needed is available then Great! return `200`.
+* If data/page does not exist then return `404`.
+
+The interesting part is sometimes the most common known status codes even
+question you back like below:
+
+* Whether you defining it correctly or not?
+* Is your design compliant with
+[Roy-fielding](https://en.wikipedia.org/wiki/Roy_Fielding)’s status codes?
+* Should the API call return `200` or should it be `204 No Content` or should it
+be `202 Accepted` or should it be `201 created`
+
+Gosh!!, this would crack your brain for a while and drinking plenty of water
+would make you feel better. We are kind of lost now thinking through the real
+hassle that anyone would face during API design & implementation.
+
+#### Still Why!!!
+
+Below points can be taken into consideration for an argument favouring specific
+status codes are unnecessary:
+
+* Status codes which exist now are considered to be general for modelling a
+website/ API.
+* API responses need to be to be specific for an application-specific format
+* Should be more specific enough and transparent to show failures and reason out
+them which helps the client-side to respond in a meaningful manner.
+* Then where does HTTP status codes are applicable and useful
+
+The real reason behind the use of HTTP status codes is:
+
+> HTTP is a layered system where HTTP library sits between client and server would
+> work better if meaninful response codes are returned.
+
+#### How to start
+
+Below are a few places where I believed I could have saved time in debugging my
+application, If I would have used the right status code:
+
+* Not mixing up the usage of `502 Bad Gateway` `500 Internal Server Error` & `503
+Service Unavailable`
+* Identify the right use of `404 Not Found` and `405 Method Not Allowed`
+
+Below is a diagram that illustrates a decision tree that could be handy in
+deciding the status codes depending on the context of use.
+
+![](https://cdn-images-1.medium.com/max/800/1*u49qmt3X4dlxtK2DGRzTKQ.png)
+<span class="figcaption_hack">General decision tree diagram for choosing HTTP codes (Source: codetinkerer.com)</span>
+
+#### Conclusion
+
+I will be continuing in detail on interesting status codes and its applicability
+in different scenarios. This will eventually explain in detail the
+above-mentioned decision tree diagram
+
+* [API](https://medium.com/tag/api?source=post)
+* [Rest Api](https://medium.com/tag/rest-api?source=post)
+* [Rest](https://medium.com/tag/rest?source=post)
+
+### [Nageswaran Keshan](https://medium.com/@keshshen)
