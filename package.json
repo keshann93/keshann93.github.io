@@ -21,7 +21,7 @@
     "node": ">= 0.10.0"
   },
   "devDependencies": {
-    "autoprefixer": "^6.3.5",
+    "autoprefixer": "^9.7.6",
     "node-sass": "^3.4.2",
     "npm-run-all": "^1.7.0",
     "onchange": "^2.2.0",
