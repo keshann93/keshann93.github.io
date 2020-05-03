@@ -24,7 +24,7 @@
     "autoprefixer": "^6.3.5",
     "node-sass": "^3.4.2",
     "npm-run-all": "^1.7.0",
-    "onchange": "^2.2.0",
+    "onchange": "^7.0.2",
     "postcss-cli": "^2.5.1",
     "uglify-js": "^2.6.1"
   },
